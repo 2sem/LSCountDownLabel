@@ -9,19 +9,19 @@
 import Foundation
 import UIKit
 
-class LSCountDownLabel : UILabel{
+public class LSCountDownLabel : UILabel{
     /// Max Counting seconds
-    @IBInspectable var seconds : Int = 0;
+    @IBInspectable public var seconds : Int = 0;
     
     /// minimum text scale to show counting animation
-    @IBInspectable var minimumScale : CGFloat = 0.25;
+    @IBInspectable public var minimumScale : CGFloat = 0.25;
     
     /// current value of counting
     var value = 0;
     /// is the counting currently
     var isCounting = false;
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib();
     }
     
@@ -29,7 +29,7 @@ class LSCountDownLabel : UILabel{
         Start counting animation and triggers completion handler when the counting has been finished
         - parameter completion: completion handler to trigger when the counting has been finished
     */
-    func start(_ completion: @escaping (Int) -> Void){
+    public func start(_ completion: @escaping (Int) -> Void){
         guard !self.isCounting else{
             return;
         }
@@ -43,7 +43,7 @@ class LSCountDownLabel : UILabel{
     /**
         Stop counting animation
     */
-    func stop(){
+    public func stop(){
         guard self.isCounting else{
             return;
         }

@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #
 #
 s.name         = "LSCountDownLabel"
-s.version      = "0.0.2"
+s.version      = "0.0.3"
 s.swift_version = "4.1"
 s.summary      = "Label for the counting number with animation."
 
@@ -98,7 +98,7 @@ s.source       = { :git => "https://github.com/2sem/LSCountDownLabel.git", :tag 
 #  Not including the public_header_files will make all headers public.
 #
 
-s.source_files  = "*/Extensions/*.swift", "*/Extensions/*/*.swift", "*/Extensions/*/*/*.swift", "**/*.{h,m}"
+s.source_files  = "*/*.swift", "*.swift", "*/*/*.swift", "**/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"

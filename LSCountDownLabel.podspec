@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #
 #
 s.name         = "LSCountDownLabel"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.swift_version = "4.1"
 s.summary      = "Label for the counting number with animation."
 

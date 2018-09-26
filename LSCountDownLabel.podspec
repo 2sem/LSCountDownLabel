@@ -27,7 +27,8 @@ s.summary      = "Label for the counting number with animation."
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 s.description  = <<-DESC
-LSCountDownLabel is UILabel for counting number
+    LSCountDownLabel is UILabel for counting number
+DESC
 
 s.homepage     = "https://github.com/2sem/LSCountDownLabel"
 # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"

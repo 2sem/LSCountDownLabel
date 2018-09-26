@@ -10,6 +10,9 @@
 		2C1A11A2215B1A2B00400371 /* LSCountDownLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1A1198215B1A2A00400371 /* LSCountDownLabel.framework */; };
 		2C1A11A7215B1A2B00400371 /* LSCountDownLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A11A6215B1A2B00400371 /* LSCountDownLabelTests.swift */; };
 		2C1A11A9215B1A2B00400371 /* LSCountDownLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1A119B215B1A2B00400371 /* LSCountDownLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1A11BC215B1B1F00400371 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A11BB215B1B1F00400371 /* .gitignore */; };
+		2C1A11C0215B1D5100400371 /* LSCountDownLabel.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A11BF215B1D5100400371 /* LSCountDownLabel.podspec */; };
+		2C1A11C4215B1EFE00400371 /* LSCountDownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A11C3215B1EFE00400371 /* LSCountDownLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		2C1A11A1215B1A2B00400371 /* LSCountDownLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSCountDownLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1A11A6215B1A2B00400371 /* LSCountDownLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSCountDownLabelTests.swift; sourceTree = "<group>"; };
 		2C1A11A8215B1A2B00400371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1A11BB215B1B1F00400371 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2C1A11BF215B1D5100400371 /* LSCountDownLabel.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LSCountDownLabel.podspec; sourceTree = "<group>"; };
+		2C1A11C3215B1EFE00400371 /* LSCountDownLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSCountDownLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,8 @@
 		2C1A118E215B1A2A00400371 = {
 			isa = PBXGroup;
 			children = (
+				2C1A11BF215B1D5100400371 /* LSCountDownLabel.podspec */,
+				2C1A11BB215B1B1F00400371 /* .gitignore */,
 				2C1A119A215B1A2A00400371 /* LSCountDownLabel */,
 				2C1A11A5215B1A2B00400371 /* LSCountDownLabelTests */,
 				2C1A1199215B1A2A00400371 /* Products */,
@@ -71,6 +79,7 @@
 		2C1A119A215B1A2A00400371 /* LSCountDownLabel */ = {
 			isa = PBXGroup;
 			children = (
+				2C1A11C3215B1EFE00400371 /* LSCountDownLabel.swift */,
 				2C1A119B215B1A2B00400371 /* LSCountDownLabel.h */,
 				2C1A119C215B1A2B00400371 /* Info.plist */,
 			);
@@ -177,6 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1A11C0215B1D5100400371 /* LSCountDownLabel.podspec in Resources */,
+				2C1A11BC215B1B1F00400371 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1A11C4215B1EFE00400371 /* LSCountDownLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +401,7 @@
 		2C1A11B0215B1A2B00400371 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M29A6H95KD;
 				INFOPLIST_FILE = LSCountDownLabelTests/Info.plist;
@@ -407,6 +420,7 @@
 		2C1A11B1215B1A2B00400371 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M29A6H95KD;
 				INFOPLIST_FILE = LSCountDownLabelTests/Info.plist;
